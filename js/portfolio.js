@@ -69,7 +69,18 @@ var graphicdesign = function() {
           });
 };
 
-var codingprojects = function() {return []};
+var codingprojects = function() {
+  return [{src: 'toronto.png', name: 'Toronto Culture Map'},
+          {src: 'lookfwd.png', name: 'Grouping App'}].map(function(i) {
+           return $('<div>').addClass('grid-item')
+             .append($('<img>')
+               .attr('src', '../images/portfolio/codingprojects/' + i.src))
+             .append($('<div>')
+              .addClass('item-cover')
+              .html('<span class="align-middle"> <a class="title-link" href = "http://devpost.com/software/toronto-culture-tour-map">' + i.name + '</a></span>')
+              .data('src', '../images/portfolio/codingprojects/' + i.src))
+          });
+};
 
 function initGrid() {
   return $('.grid').masonry({

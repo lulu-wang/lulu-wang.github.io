@@ -109,6 +109,10 @@ body {
   z-index: -1;
 }
 
+a.title-link {
+  color: transparent;
+}
+
 .grid-item .item-cover {
   background-color: transparent;
   transition: 0.5s;
@@ -126,6 +130,11 @@ body {
 
 .grid-item .item-cover:hover {
   background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.grid-item .item-cover:hover a {
+  text-decoration: none;
   color: white;
 }
 
