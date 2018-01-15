@@ -103,7 +103,7 @@ $(document).ready(function() {
   }
 
   function itemCoverHandlers() {
-    $('.item-cover').click(function(e) {
+      $('.item-cover').click(function(e) {
       $('body').addClass('no-overflow');
       $('.slide').toggle();
       $('.slide img').attr('src', $(this).data('src'));
@@ -140,6 +140,14 @@ $(document).ready(function() {
   $('.slide').click(function(e) {
     $('.slide').toggle();
     $('body').removeClass('no-overflow');
+    $('.slide').removeClass('zoomed');
+    $('.slide img').removeClass('zoomed');
+  });
+
+  $('.slide img').click(function(e) {
+    $('.slide').toggleClass('zoomed');
+    $('.slide img').toggleClass('zoomed');
+    e.stopPropagation();
   });
 
   // // layout Masonry after each image loads

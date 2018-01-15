@@ -148,10 +148,24 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.slide.zoomed {
+  height:100%;
+  overflow-y: scroll;
+}
+
 .slide img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%) translateX(-50%);
   max-height: 100%;
   max-width: 100%;
+  cursor: zoom-in;
+}
+
+.slide.zoomed img{
+  top: 0;
+  transform: translateX(-50%);
+  width: 100%;
+  max-height: inherit;
+  cursor: zoom-out;
 }
