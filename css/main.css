@@ -93,3 +93,8 @@ h1{
 .social i:hover{
 	opacity: 1;
 }
+
+a:active {
+  background-color: none;
+  border:none;
+}

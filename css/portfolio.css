@@ -55,7 +55,7 @@ body {
 .navbar-brand {
   font-weight: 800;
   padding-left: 40px;
-  font-size: 30px;
+  font-size: 25px;
   padding-right: 40px;
 }
 
@@ -64,8 +64,8 @@ body {
 }
 
 .navbar-nav .nav-item {
-  font-size: 20px;
-  padding: 20px 30px !important;
+  font-size: 15px;
+  padding: 15px 25px !important;
 }
 
 .grid-sizer,
@@ -136,7 +136,7 @@ body {
   transform: translateY(-50%) translateX(-50%);
 }
 
-.slide { 
+.slide {
   display: none;
   position: fixed;
   z-index: 2;
