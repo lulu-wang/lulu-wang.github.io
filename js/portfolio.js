@@ -7,6 +7,7 @@ var illustration = function() {
           {src: 'azure.jpg', name: 'Azure World'},
           {src: 'mirai.jpg', name: 'Mirai Kuriyama'},
           {src: 'rakkun.jpg', name: 'Rakkun'},
+          {src: '14.jpg', name: 'Tracer'},
           {src: 'dvapost2.jpg', name: 'D.VA'},
           {src: 'fashion1.jpg', name: 'Design 1'},
           {src: 'fashion2.jpg', name: 'Design 2'},
@@ -70,14 +71,16 @@ var graphicdesign = function() {
 };
 
 var codingprojects = function() {
-  return [{src: 'toronto.png', name: 'Toronto Culture Map'},
+  return [{src: 'Starlight61A.png', name: 'Starlight'},
+          {src: 'crypto.png', name: 'CryptoConverter'},
+          {src: 'toronto.png', name: 'Toronto Culture Map'},
           {src: 'lookfwd.png', name: 'Grouping App'}].map(function(i) {
            return $('<div>').addClass('grid-item')
              .append($('<img>')
                .attr('src', '../images/portfolio/codingprojects/' + i.src))
              .append($('<div>')
               .addClass('item-cover')
-              .html('<span class="align-middle"> <a class="title-link" href = "http://devpost.com/software/toronto-culture-tour-map">' + i.name + '</a></span>')
+              .html('<span class="align-middle">'  + i.name + '</span>')
               .data('src', '../images/portfolio/codingprojects/' + i.src))
           });
 };
