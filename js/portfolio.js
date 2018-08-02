@@ -95,14 +95,34 @@ function initGrid() {
   });
 }
 
+function getFuncToInit() {
+  var grid = $('.grid');
+  if (grid.attr("id") == "illustration") {
+    return illustration();
+  } if (grid.attr("id") == "uiux") {
+    return [];
+  } if (grid.attr("id") == "coding") {
+    return [];
+  } if (grid.attr("id") == "graphicdesign") {
+    return graphicdesign();
+  }
+}
+
 var sizer = $('<div>').addClass('grid-sizer');
 
 $(document).ready(function() {
 
   // init Masonry
-  var grid = initGrid();
-  var current = illustration();
-  updateGrid(illustration());
+  // var grid = initGrid();
+  // var current = illustration();
+
+  var grid = $('.grid');
+  grid.imagesLoaded().progress( function() {
+    grid = initGrid();
+  });
+
+  var current = getFuncToInit();
+  updateGrid(current);
 
   function updateGrid(stuff) {
     console.log(current);
@@ -132,22 +152,30 @@ $(document).ready(function() {
   });
 
   $('#illustration').click(function(e) {
+    console.log("clicked on illustration");
     updateGrid(illustration());
+    console.log("updated");
     itemCoverHandlers();
   });
 
   $('#uiux').click(function(e) {
+    console.log("clicked on uiux");
     updateGrid(uiux());
+    console.log("updated");
     itemCoverHandlers();
   });
 
   $('#codingprojects').click(function(e) {
+    console.log("clicked on coding");
     updateGrid(codingprojects());
+    console.log("updated");
     itemCoverHandlers();
   });
 
   $('#graphicdesign').click(function(e) {
+    console.log("clicked on graphicdesign");
     updateGrid(graphicdesign());
+    console.log("updated");
     itemCoverHandlers();
   });
 
