@@ -211,3 +211,20 @@ a.title-link {
 .row {
   padding-bottom: 5.5rem;
 }
+
+.btn-outline-info {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-right: 5px;
+  font-family: "dosis", sans-serif;
+  color: white;
+  border-color: white;
+}
+
+.btn-outline-info:hover {
+  color: black;
+  background-color: #efefef;
+  border-color: white;
+}
