@@ -12,6 +12,7 @@ var illustration = function() {
           {src: 'dvapost2.jpg', name: 'D.VA'},
           {src: 'ahri.jpg', name: 'Ahri'},
           {src: 'zerotwo.jpg', name: 'Zero Two'},
+          {src: 'singularity.jpg', name: 'Singularity'},
           {src: 'undertale.jpg', name: 'Duality'},
           {src: 'fashion1.jpg', name: 'Design 1'},
           {src: 'fashion2.jpg', name: 'Design 2'},
