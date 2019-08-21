@@ -6,6 +6,8 @@ var illustration = function() {
           {src: 'sky.jpg', name: 'Wings'},
           {src: 'azure.jpg', name: 'Azure World'},
           {src: 'reflection.jpg', name: 'Reflection'},
+          {src: 'mayu.png', name: 'Afternoon Glow'},
+          {src: 'pinterest3.png', name: 'Pinterest Portrait'},
           {src: 'mirai.jpg', name: 'Mirai Kuriyama'},
           {src: 'rakkun.jpg', name: 'Rakkun'},
           {src: '14.jpg', name: 'Tracer'},
