@@ -8,6 +8,7 @@ var illustration = function() {
           {src: 'reflection.jpg', name: 'Reflection'},
           {src: 'mayu.png', name: 'Afternoon Glow'},
           {src: 'pinterest3.png', name: 'Pinterest Portrait'},
+          {src: 'dazed.png', name: 'Dazed Freedom'},
           {src: 'mirai.jpg', name: 'Mirai Kuriyama'},
           {src: 'rakkun.jpg', name: 'Rakkun'},
           {src: '14.jpg', name: 'Tracer'},
@@ -63,8 +64,7 @@ var uiux = function() {
 
 var graphicdesign = function() {
   return [{src: '2017bblogo.png', name: 'Berkeley Builds Logo'},
-          {src: 'bbshirtback.png', name: 'Berkeley Builds Logo'},
-          {src: 'bbshirtfront.jpg', name: 'Berkeley Builds Logo'},
+          {src: 'isometric.png', name: 'Isometric Design'},
           {src: 'bl+stuff.png', name: 'Berkeley Legends'},
           {src: 'opmedsk1.png', name: 'Operation Med School'},
           {src: 'opmedsk2.png', name: 'Operation Med School'},
