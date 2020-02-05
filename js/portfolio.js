@@ -64,10 +64,10 @@ var uiux = function() {
 
 var graphicdesign = function() {
   return [{src: 'faisier.png', name: 'Fraisier'},
+          {src: 'isometric.png', name: 'Isometric Design'},
           {src: 'isometric2.png', name: 'Isometric Design'},
           {src: 'latte1.png', name: 'I love you a latte'},
           {src: 'latte2.png', name: 'I love you a latte'},
-          {src: 'isometric.png', name: 'Isometric Design'},
           {src: '2017bblogo.png', name: 'Berkeley Builds Logo'},
           {src: 'bl+stuff.png', name: 'Berkeley Legends'},
           {src: 'opmedsk1.png', name: 'Operation Med School'},
