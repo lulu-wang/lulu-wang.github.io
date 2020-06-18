@@ -1,3 +1,3 @@
 # lulu-wang.github.io
 
-Personal Website - updated constantly.
+Personal Website - updated constantly. Built from scratch.
