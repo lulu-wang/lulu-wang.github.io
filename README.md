@@ -1,2 +1,2 @@
 # lulu-wang.github.io
-website featuring work.
+website featuring coding projects.
